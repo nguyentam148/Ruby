@@ -1,0 +1,152 @@
+vi:
+
+  picture_size: "Nên chọn ảnh nhỏ hơn 5MB"
+  microposts:
+    create:
+      success: "Tạo micropost thành công!"
+    micropost:
+      you_sure: "Bạn có chắc hem?"
+      delete: "Xóa"
+    destroy:
+      deleted_micropost: "Đã xóa micropost"
+      deleted_micropost_failed: "Xóa Micropost thất bại"
+  static_pages:
+    home:
+      description: "Trang chủ"
+      content_html: '</p>Đây là trang chủ của
+        <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
+        </p>'
+      sign_up: "Đăng ký ngay!"
+      feed_html: '<h3>Micropost Feed</h3>'
+    help:
+      description: "Trợ giúp"
+      content_html: '</p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+        <a href="https://www.railstutorial.org/help">trang trợ giúp Hướng dẫn Rails</a>.
+        Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+        <a href="https://www.railstutorial.org/book"><em>sách Hướng dẫn về Ruby on Rails</em>
+        book</a>.</p>'
+    about:
+      description: "Về chúng tôi"
+      content_html: '<p>
+        <a href="https://www.railstutorial.org/">
+        <em>Hướng dẫn về Ruby on Rails</em></a> là một
+        <a href="https://www.railstutorial.org/book">bộ sách</a> và
+        <a href="http://screencasts.railstutorial.org/">loạt screencast</a>
+        để dạy phát triển web với
+        <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+        Đây là ứng dụng mẫu cho hướng dẫn.
+      </p>'
+    contact:
+      description: "Liên hệ"
+      content_html: '<p>
+      Liên hệ tại <a href="https://www.railstutorial.org/contact">Địa chỉ liên hệ</a>.
+      </p>'
+  layouts:
+    application:
+      page_title: " Sản phẩm mẫu của Ruby on Rails"
+    header:
+      users: "Người dùng"
+      account_html: '<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Tài khoản <b class="caret"></b></a>'
+      home: "Trang chủ"
+      help: "Cần trợ giúp?"
+      log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
+      settings: "Cài đặt"
+      profile: "Thông tin các nhân"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+    footer:
+      footer_html: '<small>
+        Giáo trình <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        được viết bởi <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+        </small>'
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news_html: '<a href="http://news.railstutorial.org/">News</a>'
+      news_html: '<a href="http://news.railstutorial.org/">News</a>'
+  sessions:
+    create:
+      message: "Sai email hoặc mật khẩu"
+    form:
+      title: "Đăng nhập"
+      remember_me_html: '
+        <span>Lưu đăng nhập</span>'
+    new:
+      title: "Đăng nhập"
+      sign_up: "Đăng ký ngay!"
+      new: "Người dùng mới? "
+  users:
+    show_follow:
+      view_my_profile: "Hồ sơ của tôi"
+    unfollow:
+      submit_unfollow: "Bỏ theo dõi"
+    follow:
+      submit_follow: "Theo dõi"
+    create:
+      welcome: "Chào mừng bạn!"
+    show:
+      find: "Không tìm thấy người dùng, trở về trang chủ!"
+      can_not_find_user: "Không tìm thấy người dùng này!"
+    new:
+      title: "Đăng ký"
+      password: "Mật khẩu"
+      confirm: "Xác nhận lại mật khẩu của bạn"
+      button_text: "Tạo tài khoản"
+      gender: "Giới tính"
+      year: "Chọn năm sinh"
+      month: "Chọn tháng sinh"
+      day: "Chọn ngày sinh"
+      male: "Nam"
+      female: "Nữ"
+      other: "Khác"
+      date_of_birth: "Ngày sinh"
+    edit:
+      can_not_find_user: "Không tìm thấy người dùng này!"
+      title: "Chỉnh sửa người dùng"
+      button_text: "Lưu thay đổi"
+      change_html: '
+      <a href="http://gravatar.com/emails" target="_blank">Thay</a>'
+      update_html: '<h1>Cập nhật thông tin cá nhấn</h1>'
+      confirm: "Xác nhận lại mật khẩu của bạn"
+      need_login: "Vui lòng đăng nhập"
+    update:
+      update: "Đã lưu thay đổi!"
+      can_not_find_user: "Không thay đổi được thông tin người dùng!"
+    index:
+      title: "Tất cả người dùng"
+      all_html: '<h1>Tất cả người dùng</h1>'
+      need_login: "Vui lòng đăng nhập"
+    user:
+      user_confirm: "Bạn có muốn xóa tài khoản này ko?"
+      user_delete: "Xóa"
+    destroy:
+      delete: "Đã xóa người dùng!"
+      fail_delete: "Người dùng đã bị xóa từ trước!"
+      can_not_find_user: "Không tìm thấy người dùng này!"
+    following:
+      following: "Người đang theo dõi"
+    followers:
+      follower: "Người được theo dõi"
+  shared:
+    form:
+      placeholder: "Soạn mới micropost..."
+      post: "Đăng"
+    micropost_form:
+      placeholder: "Soạn mới micropost..."
+      post: "Đăng"
+    user_info:
+      view_my_profile: "Hồ sơ của tôi"
+    stats:
+      following: "%{count} Đang theo dõi"
+      followers: "%{count} Được theo dõi"
+  following:
+    show:
+      following: "Đang theo dõi"
+  followers:
+    show:
+      followers: "Được theo dõi"
+  relationships:
+    index:
+      following: "Đang theo dõi"
+      followers: "Được theo dõi"

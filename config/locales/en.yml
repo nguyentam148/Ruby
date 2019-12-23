@@ -1,0 +1,154 @@
+en:
+  picture_size: "Should be less than 5MB"
+  microposts:
+    create:
+      success: "Micropost created!"
+    micropost:
+      you_sure: "Are You sure?"
+      delete: "delete"
+    destroy:
+      deleted_micropost: "Micropost deleted"
+      deleted_micropost_failed: "Deleted Micropost failed"
+  static_pages:
+    home:
+      description: "Home"
+      content_html: '<p>This is the home page for the
+      <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      sample application.</p>'
+      sign_up: "Sign up now!"
+      feed_html: '<h3>Micropost Feed</h3>'
+    help:
+      description: "Help"
+      content_html: '<p>
+      Get help on the Ruby on Rails Tutorial at the
+      <a href="https://www.railstutorial.org/help">Rails Tutorial help
+      section</a>.
+      To get help on this sample app, see the
+      <a href="https://www.railstutorial.org/book"><em>Ruby on Rails
+      Tutorial</em> book</a>.
+    </p>'
+    about:
+      description: "About us"
+      content_html: '<p>
+      The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
+      Tutorial</em></a> is a
+      <a href="https://www.railstutorial.org/book">book</a> and
+      <a href="http://screencasts.railstutorial.org/">screencast series</a>
+      to teach web development with
+      <a href="http://rubyonrails.org/">Ruby on Rails</a>.
+      This is the sample application for the tutorial.
+    </p>'
+    contact:
+      description: "Contact"
+      content_html: '<p>
+      Contact the Ruby on Rails Tutorial about the sample app at the
+      <a href="https://www.railstutorial.org/contact">contact page</a>.
+    </p>'
+  layouts:
+    application:
+      page_title: " Ruby on Rails Sample App"
+    header:
+      users: "Users"
+      account_html: '<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Account <b class="caret"></b></a>'
+      home: "Home"
+      help: "Need helps?"
+      log_in: "Log in"
+      log_out: "Log out"
+      settings: "Settings"
+      profile: "Profile"
+      english: "English"
+      vietnamese: "Vietnamese"
+    footer:
+      footer_html: '<small>
+        The <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+        </small>'
+      about: "About us"
+      contact: "Contact"
+      news_html: '<a href="http://news.railstutorial.org/">News</a>'
+  sessions:
+    create:
+      messsage: "Invalid email/password combination"
+    form:
+      title: "Log in"
+      remember_me_html: '
+        <span>Remember me on this computer</span>'
+    new:
+      title: "Log in"
+      sign_up: "Sign up now!"
+      new: "New user? "
+  users:
+    show_follow:
+      view_my_profile: "View my profile"
+    unfollow:
+      submit_unfollow: "Unfollow"
+    follow:
+      submit_follow: "Follow"
+    create:
+      welcome: "Greeting traveller!"
+    show:
+      find: "Can't find the id you are looking for, redirect to Home page!"
+      can_not_find_user: "Can not find this user!"
+    new:
+      title: "Sign up"
+      password: "Password"
+      confirm: "Confirm your password"
+      button_text: "Create my account"
+      gender: "Gender"
+      year: "Select year"
+      month: "Select month"
+      day: "Select day"
+      male: "Male"
+      female: "Female"
+      other: "Other"
+      date_of_birth: "Date of birth"
+    edit:
+      can_not_find_user: "Can not find this user!"
+      title: "Edit user"
+      button_text: "Save changes"
+      change_html: '
+      <a href="http://gravatar.com/emails" target="_blank">Change</a>'
+      update_html: '<h1>Update your profile</h1>'
+      confirm: "Confirm your password"
+      need_login: "Please log in"
+    update:
+      update: "Profile updated!"
+      can_not_find_user: "Can not find this user!"
+    index:
+      title: "All users"
+      all_html: '<h1>All users</h1>'
+      need_login: "Please log in"
+    user:
+      user_confirm: "Do you want to delete this account?"
+      user_delete: "Delete"
+    destroy:
+      delete: "User deleted!"
+      fail_delete: "This user already deleted!"
+      can_not_find_user: "Can not find this user!"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+  shared:
+    form:
+      placeholder: "Compose new micropost..."
+      post: "Post"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_my_profile: "View my profile"
+    stats:
+      following: "%{count} Following"
+      followers: "%{count} Follower"
+  following:
+    show:
+      following: "Following"
+  followers:
+    show:
+      followers: "Follower"
+  relationships:
+    index:
+      following: "Following"
+      followers: "Followers"

@@ -1,0 +1,13 @@
+standard_memory: 5
+user_valid:
+   max_length_name: 50
+   max_length_email: 255
+   min_length_password: 6
+user_gravatar:
+  size: 50
+  size2: 80
+check_box: 1
+x: 400
+y: 400
+content_length: 140
+per_page: 5

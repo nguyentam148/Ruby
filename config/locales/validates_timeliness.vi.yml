@@ -1,0 +1,16 @@
+vi:
+  errors:
+    messages:
+      invalid_date: " không hợp lệ"
+      invalid_time: " không hợp lệ"
+      invalid_datetime: "Ngày tháng không hợp lệ"
+      is_at: "bắt buộc phải đúng %{restriction}"
+      before: "bắt buộc phải trước %{restriction}"
+      on_or_before: "bắt buộc phải từ %{restriction} trở về trước"
+      after: "bắt buộc phải sau %{restriction}"
+      on_or_after: "bắt buộc phải từ %{restriction} trở về sau"
+  validates_timeliness:
+    error_value_formats:
+      date: '%Y-%m-%d'
+      time: '%H:%M:%S'
+      datetime: '%Y-%m-%d %H:%M:%S'

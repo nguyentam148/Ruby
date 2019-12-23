@@ -1,0 +1,16 @@
+<%= form_with model: @user, local: true do |f| %>
+  <%= render "shared/error_messages", object: f.object %>
+  <%= f.label :name %>
+  <%= f.text_field :name, class: "form-control" %>
+  <%= f.label :email %>
+  <%= f.email_field :email, class: "form-control" %>
+  <%= f.label :password %><%= f.password_field :password, class: "form-control" %>
+  <%= f.label :password_confirmation, t(".confirm") %>
+  <%= f.password_field :password_confirmation, class: "form-control" %>
+  <%= f.label :gender, t(".gender") %>
+  <%= f.select(:gender, [[t(".male"), "male"], [t(".female"), "female"], [t(".other"), "other"]]) %>
+  <%= f.label :date_of_birth, t(".date_of_birth") %>
+  <%= date_field(:user, :date_of_birth, class: "form-control") %>
+  <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+<% end %>
+

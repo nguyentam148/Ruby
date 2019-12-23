@@ -1,0 +1,11 @@
+<% provide :title, t(".description") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield :title %> </title>
+  </head>
+  <body>
+    <h1><%= t ".description" %></h1>
+    <%= t ".content_html" %>
+  </body>
+</html>
